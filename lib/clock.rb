@@ -1,6 +1,3 @@
 require "clock/version"
+require "clock/views"
 
-module Clock
-  class Error < StandardError; end
-  # Your code goes here...
-end
