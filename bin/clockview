@@ -2,4 +2,5 @@
 
 require "clock"
 
+puts "gay"
 Clock::Viewer.start()
