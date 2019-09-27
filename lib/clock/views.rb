@@ -1,11 +1,11 @@
-require "sinata"
+require "sinatra"
 
 module Clock
 
   class Viewer < Sinatra::Base
 
     def self.start
-        !run
+        run!
     end
 
     get "/" do
