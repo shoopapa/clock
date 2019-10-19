@@ -17,7 +17,7 @@ module Clock
     end
 
     get "/css" do
-        haml :css
+        haml :css_learning
     end
 
     get "/fakegoogle" do
