@@ -12,8 +12,16 @@ module Clock
         run!
     end
 
-    get "/" do
+    get "/clock" do
         haml :clock
+    end
+
+    get "/css" do
+        haml :css
+    end
+
+    get "/fakegoogle" do
+        haml :fakegoogle
     end
 
   end
