@@ -36,6 +36,6 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.17"
   spec.add_development_dependency "rake", "~> 10.0"
-  spec.add_dependency 'sinatra', '~> 1.4', '>= 1.4.7'
+  spec.add_dependency 'sinatra', '>= 1.4.7', '< 3.0'
   spec.add_dependency 'haml', '~> 5.1', '>= 5.1.2'
 end
